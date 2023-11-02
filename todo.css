@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: hsl(330, 3%, 12%);
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+h1 {
+    color:rgb(252, 251, 251);
+}
+
+.todo-container {
+    margin: 20px;
+    text-align: center;
+    background-color: #efd3e0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(11, 11, 11, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #3679c0;
+    color: hsl(60, 2%, 10%);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+li {
+    margin: 10px 0;
+    background-color: #f6f3f3;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+#clear-tasks {
+    background-color: #05be24c4;
+}
+
+#clear-tasks:hover {
+    background-color: #136621c4;
+}
